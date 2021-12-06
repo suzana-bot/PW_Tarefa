@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+    <title>Contato com Etec</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .button {
+        border-radius: 4px;
+        background-color: red;
+        border: none;
+        color: black;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        cursor: pointer;
+        margin: 5px;
+      }
+ 
+      .button span {
+        position: relative;
+        transition: 0.5s;
+      }
+ 
+      .button span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+ 
+      .button:hover span {
+        padding-right: 25px;
+      }
+ 
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+</head>
+<body style="background-color: rgb(255, 179, 179);">
+  <h1 style="color: black; background-color: red;">Mande sua mensagem para Etec de Lins</h1>
+    <form action="inserir_veiculo.php" method="POST" class="form-horizontal">
+
+        <div class="form-group ">
+          <label for="inputNome" class="col-sm-2 control-label col-form-label"> Nome</label>
+        <div class="col-sm-8">
+          <input type="text" name="nome" class="form-control" id="inputModelo" placeholder="Digite seu nome">
+        </div>
+        </div>
+    
+        <div class="form-group ">
+          <label for="inputEmail" class="col-sm-2 control-label col-form-label"> Email</label>
+        <div class="col-sm-8">
+          <input type="text" name="email" class="form-control" id="inputPlaca" placeholder="Digite seu Email">
+        </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAssunto" class="col-sm-2 control-label col-form-label"> Assunto</label>
+            <div class="col-sm-8">
+                <input type="text" name="assunto" class="form-control" id="inputAssunto" 
+                placeholder="Digite o assunto do email">
+            </div>
+        </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputMensagem" class="col-sm-2 control-label col-form-label"> Mensagem</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" placeholder="Digite sua mensagem"></div>
+        </div>
+      </form>
+    <a href= "#"><button class="button"><span>Enviar </span></button></a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="jumbotron jumbotron-fluid" style="background-color: #494949">  <br>
+      <div class="row mt-3">
+      <div class="col-12 col-sm-6 col-md-6">
+         <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-6">
+           <h4 style="color:black ;padding:15px;text-align:center; background-color: red">
+            <i class="fas fa-hashtag"></i> Redes sociais</h4>
+           <p style="color: black; font-family: cursive">
+              <a href="https://www.instagram.com/etec_lins/"><i class="fab fa-instagram-square"></i> Instagram <br></a>
+              <br>
+            <a href="https://www.facebook.com/etecdelins" ><i class="fab fa-facebook"></i> Facebook <br></a>
+           </p>
+    
+          </div>
+         </div>
+      </div>
+     <div class="col-12 col-sm-6 col-md-6">
+         <div class="row mt-3">
+          <div class="col-12 col-sm-6 col-md-6">
+           <h4 style="color: black;padding:15px;text-align:center; background-color: red"><i class="far fa-paper-plane"></i>
+             Vestibulinho ETEC</h4>
+           <p class="" style="color: black; font-family: cursive">
+            <i class="fas fa-map-marker-alt"></i> Localização<br>
+            
+            Rua São Pedro, 300 - Centro - Lins<br>
+            <br>
+            <i class="fas fa-envelope"></i> Email<br>
+            
+            e148.ata@etec.sp.gov.br<br>
+            <br>
+            <i class="fas fa-phone-alt"></i> Telefone<br>
+            
+            (14) 3523-1217<br>
+          </p>
+          </div>
+         </div>
+      </div>
+     </div>
+  </div>
+  
+    <h1 style="background-color: black;padding:15px;text-align:center; color: red">
+      © Desenvolvido por Suzana</h1>
+      
+<script src="js/jquery-3.6.0.js">
+
+</script>
+<script src="js/bootstrap.js">
+
+</script>
+<script src="js/menu.js">
+
+</script>
+<script src="js/script.js">
+
+</script>
+</body>
+</html>
